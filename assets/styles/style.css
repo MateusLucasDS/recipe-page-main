@@ -33,16 +33,12 @@ main{
     border-radius: 20px;
 }
 
-div#foto{
-    margin: auto;
-    margin-top: 10px;
-    background-image: url(../images/image-omelette.jpeg);
-    background-size: cover;
-    width: 275px;
-    height: 125px;
+img {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
     border-radius: 10px;
-
-}
+  }
 
 main h1{
     font-family: 'youngserif', 'Times New Roman', Times, serif;
@@ -91,7 +87,6 @@ div.container{
     display: grid;
     grid-template-columns: repeat(2,50%);
     font-size: 0.7;
-    padding-bottom: 30px;
 }
 
 div.container div.col-1{
@@ -106,4 +101,3 @@ div.container div.col-1{
     border-bottom: 1px solid hsl(30, 18%, 87%);
     border-bottom-right-radius: 5px;
 }
-
