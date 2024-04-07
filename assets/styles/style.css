@@ -17,9 +17,12 @@
 body, html{
     font-family: 'static',Arial, Helvetica, sans-serif;
     background-color: hsl(330, 100%, 98%);
+    width: 99vw;
+    height: 100vh;
 }
 
 main{
+    margin: 175px 0px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -68,6 +71,7 @@ section h3{
 }
 section li{
     font-size: 0.8em;
+    list-style-position: inside;
 }
 
 main h2{
@@ -80,16 +84,17 @@ main li{
     text-align: justify;
     font-size: 0.8em;
     padding-bottom: 2px;
+    list-style-position: inside;
 }
 
-div.coluna-1{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+div.container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    font-size: 0.8;
 }
 
-div.coluna-2{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.col-2{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
 }
+
