@@ -46,13 +46,13 @@ div#foto{
 
 main h1{
     font-family: 'youngserif', 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
     padding: 10px;
 }
 
 main p{
     text-align: justify;
-    font-size: 0.8em;
+    font-size: 0.7em;
     padding: 10px;
 }
 
@@ -63,24 +63,24 @@ section{
 }
 
 section h3{
-    font-size: 1em;
+    font-size: 0.9em;
     color: hsl(332, 51%, 32%);
     padding-bottom: 5px;
 }
 section li{
-    font-size: 0.8em;
+    font-size: 0.7em;
     list-style-position: inside;
 }
 
 main h2{
     padding-bottom: 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: hsl(14, 45%, 36%);
 }
 
 main li{
     text-align: justify;
-    font-size: 0.8em;
+    font-size: 0.7em;
     padding-bottom: 2px;
     list-style-position: inside;
 }
@@ -88,7 +88,7 @@ main li{
 div.container{
     display: grid;
     grid-template-columns: repeat(2,50%);
-    font-size: 0.8;
+    font-size: 0.7;
 }
 
 .col-2{
