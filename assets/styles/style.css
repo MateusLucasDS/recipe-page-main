@@ -17,8 +17,6 @@
 body, html{
     font-family: 'static',Arial, Helvetica, sans-serif;
     background-color: hsl(330, 100%, 98%);
-    width: 99vw;
-    height: 100vh;
 }
 
 main{
